@@ -1,0 +1,209 @@
+/*Font start*/
+@font-face {
+    font-family: PTSans-Regular.ttf; /*400*/
+    src: url(../font/PT_Sans/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSans-Bold.ttf; /*700*/
+    src: url(../font/PT_Sans/PTSans-Bold.ttf);
+}
+/*Font End*/
+/*{{{{{{{{{{{  Common css start  }}}}}}}}}}}}} */
+body{
+    font-family: PTSans-Regular.ttf;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    
+}
+/*{{{{{{{{{{{  Common css end  }}}}}}}}}}}}}*/ 
+header{
+    background-color: #fcdb00;
+    padding: 18px 0;
+}
+.slider{
+    background-color: #fcdb00;
+}
+ul{}
+ul li{}
+ul li a{
+    font-weight: bold;
+    color: black !important;
+    font-size: 22px;
+    margin-left: 74px;
+    font-family: 400 !important;
+    
+}
+ul li a:hover{
+    color: white !important;
+}
+
+/*{{{{{{{{{{{{{{{{{  Slider start  }}}}}}}}}}}}}}}*/
+.c_inner{
+    padding-bottom: 70px;
+}
+.menu{
+    margin-top: 62px;
+    align-items: center;
+}
+.menu h1{
+    color: #010101;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.menu h2{
+    color: #313841;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.menu p{
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.c_indecators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.f_icon{
+    color: black;
+    font-size: 42px;
+}
+.f_icon ul{
+    margin-left: -20px;
+}
+.f_icon ul li{
+    list-style: none;
+    float: left;
+    margin-right: 33px;
+    cursor: pointer;
+}
+.f_icon ul li i{
+    
+    transition: .5s;
+}
+.f_icon ul li i:hover{
+    transform: scale(1.6);
+}
+/*{{{{{{{{{{{{{{{{{  Slider End  }}}}}}}}}}}}}}}*/
+
+/* {{{{{{{{{{{{{{{{  TinyOne Fetures start  }}}}}}}}}}}}}}*/
+.f_header{    
+    margin-top: 100px;
+    padding: 0 70px;
+}
+.f_head {
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fh_text{
+    color: #313841;
+    font-size: 20px;
+    padding: 0 170px;
+}
+/*f_single start*/
+.f_item{
+    margin-bottom: 100px;
+}
+.s_single{
+    margin-top: 60px;
+}
+    /*s_icon*/
+.s_icon{
+    font-size: 50px;
+    color: #010101;
+    text-align: center;
+}
+.s_icon i{
+    transition: .3s;
+}
+.s_icon i:hover{
+    transform: scale(1.3);
+}
+
+    /*s_text*/
+.s_text{
+    padding-right: 10px;    
+}
+.s_text_header{
+    color: #010101;
+    font-size: 22px;
+}
+.s_text_p{
+    color: #898989;
+}
+
+/*f_single end*/
+/* {{{{{{{{{{{{{{{{  TinyOne Fetures End  }}}}}}}}}}}}}}*/
+/* {{{{{{{{{{{{{{{{  TinyOne Footer start  }}}}}}}}}}}}}}*/
+/*Footer head start*/
+.footer_head {
+    background-color: #232527;
+    padding-top: 80px;
+}
+.footer_title {
+    color: #fcdb00;
+}
+.footer_text{
+    color: #898989;
+}
+.search_box {
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.s_box{
+    height: 50px;
+    font-size: 22px;
+}
+.bg_yellow{
+    background-color: #fcdb00;
+    transition: .3s;
+}
+.bg_yellow:hover{
+    background-color: #f1da43;
+}
+.social_icon{}
+.social_icon ul{}
+.social_icon ul li{}
+.social_icon ul li a{
+    margin-left: 0;
+}
+.social_icon ul li a i{
+    font-size: 42px;
+    color: #fcdb00;
+    cursor: pointer;
+    transition: .3s;
+}
+.social_icon ul li a i:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
+
+.footer_part_2{
+    background-color: #232527;
+    padding: 40px 0;
+    color: white;
+}
+
+
+.footer_2{}
+.footer_2 p{}
+.footer_2 p a{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer_2 p a:hover{
+    color: #fcdb00;
+    text-decoration: underline;
+}
+/*Footer head end*/
+/*f_single end*/
+
+/* {{{{{{{{{{{{{{{{  TinyOne Footer End  }}}}}}}}}}}}}}*/
